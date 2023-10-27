@@ -1,0 +1,103 @@
+Concatenation ,MutantID,Plate,NR Well Location,NR Well Location,R Well Location,Genomic_Location,Chromosome_Location,Gene Description,Gene Name,Gene Role,% into ORF,Direction of Transposon in ORF (see materials and methods)
+1A6,EC177,1,A6,A,6,1900597,1,"helicase, putative",,Transcription,8.2,+
+9G5,EC5537,9,G5,G,5,1900891,1,hypothetical protein,,,93.7,-
+32B4,EC23166,32,B4,B,4,1902796,1,hypothetical protein,,,7.1,+
+23D5,EC15210,23,D5,D,5,1903535,1,chemotaxis protein MotB-related protein,,,13.4,-
+15E8,EC10294,15,E8,E,8,1904457,1,hypothetical protein,,,60.8,-
+23F9,EC15595,23,F9,F,9,1908204,1,"type I restriction enzyme HsdR, putative",,DNA metabolism,21.3,-
+10A3,EC5845,10,A3,A,3,1910651,1,conserved hypothetical protein,,Hypothetical proteins,11.2,+
+23C3,EC15159,23,C3,C,3,1912056,1,conserved hypothetical protein,,Hypothetical proteins,15.8,+
+22B3,EC14843,22,B3,B,3,1913507,1,conserved hypothetical protein,,Hypothetical proteins,11.6,+
+30G9,EC21188,30,G9,G,9,1915769,1,"DNA methylase HsdM, putative",,DNA metabolism,10.1,-
+9D7,EC5442,9,D7,D,7,1918014,1,hypothetical protein,,,9.7,-
+22H9,EC15077,22,H9,H,9,1922016,1,hypothetical protein,,,15.4,-
+31H6,EC21634,31,H6,H,6,1923594,1,conserved hypothetical protein,,Hypothetical proteins,26.9,-
+10G8,EC6156,10,G8,G,8,1924704,1,conserved hypothetical protein,,Hypothetical proteins,30,-
+6E8,EC3449,6,E8,E,8,1927874,1,conserved hypothetical protein,,Hypothetical proteins,42.1,-
+6D1,EC2728,6,D1,D,1,1928891,1,conserved hypothetical protein,,Hypothetical proteins,9.4,+
+30H9,EC21220,30,H9,H,9,1929844,1,C4-dicarboxylate-binding periplasmic protein,dctP-1,Transport and binding proteins,12,-
+10B10,EC6187,10,B10,B,10,1930262,1,hypothetical protein,,,92.4,+
+10B10,EC6187,10,B10,B,10,1930262,1,conserved hypothetical protein,,Hypothetical proteins,12,+
+27D8,EC18709,27,D8,D,8,1931079,1,ROK family protein,,Unknown function,22.9,-
+22A2,EC14609,22,A2,A,2,1933884,1,neuraminidase,nanH,Energy metabolism,26.8,+
+12G2,EC7624,12,G2,G,2,1936149,1,"DNA repair protein RadC, putative",,DNA metabolism,6.3,-
+22D10,EC15139,22,D10,D,10,1936722,1,hypothetical protein,,,94.8,-
+2E7,EC1027,2,E7,E,7,1937027,1,hypothetical protein,,,71.5,-
+27E6,EC18630,27,E6,E,6,1939662,1,conserved hypothetical protein,,Hypothetical proteins,11,+
+6D11,EC3526,6,D11,D,11,1939996,1,conserved hypothetical protein,,Hypothetical proteins,77.7,-
+25A10,EC17128,25,A10,A,10,1941142,1,hypothetical protein,,,33.2,-
+21F9,EC14510,21,F9,F,9,1941719,1,middle operon regulator-related protein,,Regulatory functions,84.2,-
+21E5,EC14004,21,E5,E,5,1943206,1,hypothetical protein,,,20.6,+
+1F5,EC121,1,F5,F,5,1944066,1,eha protein,eha,Hypothetical proteins,33.8,+
+31E8,EC22481,31,E8,E,8,1946008,1,hypothetical protein,,,7.6,+
+2H11,EC940,2,H11,H,11,1946692,1,hypothetical protein,,,44.4,-
+17G9,EC11873,17,G9,G,9,1948815,1,hypothetical protein,,,5.4,-
+24H9,EC16158,24,H9,H,9,1949532,1,hypothetical protein,,,81.8,+
+33A8,EC24227,33,A8,A,8,1950424,1,hypothetical protein,,,71.4,+
+24D6,EC16475,24,D6,D,6,1951725,1,hypothetical protein,,,6.1,+
+20D9,EC13571,20,D9,D,9,1953662,1,hypothetical protein,,,100,-
+20D9,EC13571,20,D9,D,9,1953662,1,conserved hypothetical protein,,Hypothetical proteins,98.3,+
+17F2,EC11199,17,F2,F,2,1954529,1,conserved hypothetical protein,,Hypothetical proteins,34.6,-
+6E11,EC3560,6,E11,E,11,1955099,1,RNA-binding cryptochrome Cry1,cry1,DNA metabolism,22.2,+
+22B6,EC14687,22,B6,B,6,1956267,1,"C-factor, putative",,Regulatory functions,13.8,-
+21H1,EC14027,21,H1,H,1,1957089,1,hypothetical protein,,,6,+
+20E8,EC13481,20,E8,E,8,1958560,1,sigma-54 dependent transcriptional regulator,,Regulatory functions,23,-
+22H2,EC14803,22,H2,H,2,1959637,1,aldehyde dehydrogenase,aldA-2,Energy metabolism,25.9,-
+26E3,EC17612,26,E3,E,3,1961244,1,"PTS system, fructose-specific IIA component",frvA,Transport and binding proteins,32.7,+
+17G7,EC11454,17,G7,G,7,1962342,1,"PTS system, fructose-specific IIBC component",frwBC,Transport and binding proteins,56.3,+
+2C4,EC516,2,C4,C,4,1964425,1,"PTS system, fructose-specific IIABC component",frwABC,Transport and binding proteins,24.9,+
+19H11,EC13367,19,H11,H,11,1965159,1,"PTS system, fructose-specific IIB component",frwB,Transport and binding proteins,15.7,+
+2E6,EC833,2,E6,E,6,1965710,1,"PTS system, nitrogen regulatory IIA component, putative",,Transport and binding proteins,37.2,+
+34A10,EC2721,34,A10,A,10,1966597,1,transcriptional regulator,,Regulatory functions,51.6,-
+6C9,EC3160,6,C9,C,9,1967919,1,"PTS system, fructose-specific IIABC component",fruA-1,Transport and binding proteins,27.2,+
+30G8,EC21379,30,G8,G,8,1971395,1,hypothetical protein,,,50.4,+
+6D4,EC3231,6,D4,D,4,1974213,1,hypothetical protein,,,53.5,-
+14B5,EC9266,14,B5,B,5,1975471,1,quinolinate synthetase A,nadA,"Biosynthesis of cofactors, prosthetic groups, and carriers",13.4,+
+16G5,EC10596,16,G5,G,5,1975791,1,conserved hypothetical protein,,Hypothetical proteins,99.6,+
+22F4,EC14788,22,F4,F,4,1979576,1,tolR membrane protein,tolR,Transport and binding proteins,99.3,+
+6A9,EC3150,6,A9,A,9,1981140,1,conserved hypothetical protein,,Hypothetical proteins,3.4,+
+21E6,EC14211,21,E6,E,6,1981499,1,conserved hypothetical protein,,Hypothetical proteins,27.4,-
+30E12,EC21310,30,E12,E,12,1981585,1,conserved hypothetical protein,,Hypothetical proteins,90.6,+
+1D7,EC74,1,D7,D,7,1983862,1,"cytochrome d ubiquinol oxidase, subunit I",cydA-1,Energy metabolism,37.9,-
+4F8,EC1967,4,F8,F,8,1985004,1,Holliday junction DNA helicase RuvB,ruvB,DNA metabolism,89,+
+5C9,EC2708,5,C9,C,9,1986735,1,crossover junction endodeoxyribonuclease RuvC,ruvC,DNA metabolism,86.5,+
+25F6,EC17247,25,F6,F,6,1987282,1,cysteinyl-tRNA synthetase,cysS,Protein synthesis,99.7,-
+19D6,EC12740,19,D6,D,6,1991808,1,conserved hypothetical protein,,Hypothetical proteins,78.9,+
+8H3,EC4591,8,H3,H,3,1993526,1,ompT protein,ompT,Transport and binding proteins,27.9,-
+31D5,EC21695,31,D5,D,5,1994930,1,"ATP-dependent helicase, DinG family",,DNA metabolism,33,-
+5G4,EC2627,5,G4,G,4,1996583,1,conserved hypothetical protein,,Hypothetical proteins,25.2,+
+31F3,EC21704,31,F3,F,3,1997257,1,primosomal replication protein N``,priC,DNA metabolism,19.7,-
+21C4,EC13993,21,C4,C,4,1999679,1,methyl-accepting chemotaxis protein,,Cellular processes,18.4,-
+27C11,EC18835,27,C11,C,11,2000453,1,exodeoxyribonuclease III,xth,DNA metabolism,22.9,+
+8C12,EC4944,8,C12,C,12,2001643,1,"amino acid ABC transporter, permease protein",,Transport and binding proteins,24.6,-
+26H11,EC18341,26,H11,H,11,2002541,1,"amino acid ABC transporter, permease protein",,Transport and binding proteins,6.9,-
+34A11,EC3025,34,A11,A,11,2003158,1,"amino acid ABC transporter, periplasmic amino acid-binding protein",,Transport and binding proteins,41.5,-
+24D5,EC16291,24,D5,D,5,2005363,1,hypothetical protein,,,14.5,+
+23H1,EC15282,23,H1,H,1,2007181,1,formate acetyltransferase,pflB,Energy metabolism,13.3,-
+21B1,EC13818,21,B1,B,1,2009424,1,conserved hypothetical protein,,Hypothetical proteins,5.4,+
+9E2,EC5196,9,E2,E,2,2011896,1,methyl-accepting chemotaxis protein,,Cellular processes,20.9,+
+23E7,EC15715,23,E7,E,7,2013677,1,hypothetical protein,,,36.8,+
+22B1,EC14342,22,B1,B,1,2014264,1,conserved hypothetical protein,,Hypothetical proteins,12.5,-
+13F10,EC8893,13,F10,F,10,2015209,1,conserved hypothetical protein,,Hypothetical proteins,13,+
+23G6,EC15371,23,G6,G,6,2017193,1,conserved hypothetical protein,,Hypothetical proteins,12.3,+
+14A6,EC9380,14,A6,A,6,2019143,1,conserved hypothetical protein,,Hypothetical proteins,53.3,-
+26G3,EC17671,26,G3,G,3,2025796,1,Rec2-related protein,,Unknown function,5.4,-
+26D12,EC18054,26,D12,D,12,2025999,1,conserved hypothetical protein,,Hypothetical proteins,16.7,-
+26C5,EC17909,26,C5,C,5,2030060,1,hypothetical protein,,,33.5,+
+4G1,EC1617,4,G1,G,1,2030734,1,transcription-repair coupling factor,mfd,DNA metabolism,8.4,-
+16E7,EC11015,16,E7,E,7,2034687,1,hypothetical protein,,,79.8,-
+1A8,EC272,1,A8,A,8,2035443,1,hemolysin-related protein,,,12.3,+
+16B7,EC10909,16,B7,B,7,2039070,1,NADH dehydrogenase,ndh,Energy metabolism,32.9,-
+26G4,EC17811,26,G4,G,4,2039940,1,conserved hypothetical protein,,Hypothetical proteins,81.2,+
+2H7,EC1109,2,H7,H,7,2041021,1,conserved hypothetical protein,,Hypothetical proteins,46.1,+
+14E3,EC9120,14,E3,E,3,2041792,1,conserved hypothetical protein,,Hypothetical proteins,41.3,+
+24C11,EC16442,24,C11,C,11,2042464,1,conserved hypothetical protein,,Hypothetical proteins,4.6,-
+25B1,EC16676,25,B1,B,1,2043419,1,hypothetical protein,,,33.6,+
+9G2,EC5254,9,G2,G,2,2043958,1,Hit family protein,,Unknown function,86,+
+22C5,EC14890,22,C5,C,5,2045173,1,methyl-accepting chemotaxis protein,,Cellular processes,33.7,-
+15H3,EC9682,15,H3,H,3,2049761,1,Na+/H+ antiporter,nhaB,Transport and binding proteins,13,+
+21A2,EC14069,21,A2,A,2,2051362,1,disulfide bond formation protein B,dsbB,Protein fate,26.1,+
+4F1,EC1583,4,F1,F,1,2055365,1,leucine-responsive regulatory protein,lrp,Regulatory functions,1.4,+
+26B3,EC17556,26,B3,B,3,2055679,1,alanine dehydrogenase,ald,Energy metabolism,12.9,+
+15F3,EC9929,15,F3,F,3,2058848,1,cys regulon transcriptional activator,cysB,Regulatory functions,8.1,+
+4H10,EC2098,4,H10,H,10,2059456,1,hypothetical protein,,,32.9,+
