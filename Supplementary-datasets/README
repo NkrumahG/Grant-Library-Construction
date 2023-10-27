@@ -1,0 +1,8 @@
+#This file contains the supplementary datasets referenced in the manuscript.
+#Dataset S1. Plate indices file (this is located in the LuxO_search_window directory named Plate_indices.txt)
+#Dataset S2. Modified version of transposon library mutant dataset presented in Cameron et al., 2008. 
+#  (this is located in the LuxO_search_window directory named LCD_locked_search.txt)
+#Dataset S3. List of genes duplicated in the Cameron et al., 2008 transposon library mutant dataset.
+#Dataset S4. List of gene ortholog pairs present in Vibrio cholerae strains N16961 and C6706. 
+#Dataset S5. List of genes unique to Vibrio cholerae strain N16961.
+#Dataset S6. List of genes unique to Vibrio cholerae strain C6706. 
