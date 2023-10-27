@@ -1,0 +1,23 @@
+Concat	Plate	Well	No grow ON	Genomic location	Gene Name	Gene Description	Gene Role	Chromosome	Strand	IS Number
+1D2	1	D2	1	2281318	0	"flagellar hook-length control protein FliK, putative"	Cellular processes	1	-	TRUE
+1E10	1	E10	1	511415	0	conserved hypothetical protein	Hypothetical proteins	2	+	TRUE
+1F12	1	F12	1	2251573	sdhA	"succinate dehydrogenase, flavoprotein subunit"	Energy metabolism	1	-	TRUE
+1H6	1	H6	1	82044	ubiE	ubiquinone/menaquinone biosynthesis methlytransferase UbiE	"Biosynthesis of cofactors, prosthetic groups, and carriers"	1	-	TRUE
+3A6	3	A6	1	885602	0	conserved hypothetical protein	Hypothetical proteins	2	+	TRUE
+3A9	3	A9	1	683750	luxP	luxP protein	Regulatory functions	2	-	TRUE
+3A12	3	A12	1	1882070	0	"transcriptional regulator, TetR family"	Regulatory functions	1	+	TRUE
+3B6	3	B6	1	1001924	0	polysaccharide export-related protein	0	1	+	TRUE
+3C5	3	C5	1	2429293	proB	glutamate 5-kinase	Amino acid biosynthesis	1	-	TRUE
+3H3	3	H3	1	1010228	lipB	lipoate-protein ligase B	"Biosynthesis of cofactors, prosthetic groups, and carriers"	1	-	TRUE
+7H2	7	H2	1	1006467	0	conserved hypothetical protein	Hypothetical proteins	1	-	TRUE
+8C6	8	C6	1	252189	vctC	"vibriobactin and enterobactin ABC transporter, ATP-binding protein"	Transport and binding proteins	2	+	TRUE
+8D12	8	D12	1	369704	0	"killer protein, putative"	Mobile and extrachromosomal element functions	2	-	TRUE
+8E6	8	E6	1	846143	citB	transcriptional regulator CitB	Regulatory functions	1	-	TRUE
+8G2	8	G2	1	353827	0	hypothetical protein	0	2	-	TRUE
+8H6	8	H6	1	533473	0	hypothetical protein	0	2	+	TRUE
+11A6	11	A6	1	1012174	dacA-1	D-alanyl-D-alanine carboxypeptidase	Cell envelope	1	+	TRUE
+18B1	18	B1	1	905606	acfA	accessory colonization factor AcfA	Cellular processes	1	-	TRUE
+18E12	18	E12	1	157540	ilvC	ketol-acid reductoisomerase	Amino acid biosynthesis	1	-	TRUE
+18F10	18	F10	1	1483266	cry2	cryptochrome Cry2	DNA metabolism	1	-	TRUE
+18H9	18	H9	1	1146167	0	hypothetical protein	hypothetical protein	1	-	TRUE
+28H12	28	H12	1	2252657	sdhC	"succinate dehydrogenase, cytochrome b556 subunit"	Energy metabolism	1	+	TRUE
