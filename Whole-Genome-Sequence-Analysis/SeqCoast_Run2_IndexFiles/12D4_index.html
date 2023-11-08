@@ -1,0 +1,658 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html>
+<head>
+<title>BRESEQ :: Mutation Predictions</title>
+<style type = "text/css">
+body {font-family: sans-serif; font-size: 11pt;}
+th {background-color: rgb(0,0,0); color: rgb(255,255,255);}
+table {background-color: rgb(1,0,0); color: rgb(0,0,0);}
+tr {background-color: rgb(255,255,255);}
+.mutation_in_codon {color:red; text-decoration : underline;}
+.snp_type_synonymous{color:green;}
+.snp_type_nonsynonymous{color:blue;}
+.snp_type_nonsense{color:red;}
+.mutation_header_row {background-color: rgb(0,130,0);}
+.read_alignment_header_row {background-color: rgb(255,0,0);}
+.missing_coverage_header_row {background-color: rgb(0,100,100);}
+.new_junction_header_row {background-color: rgb(0,0,155);}
+.copy_number_header_row {background-color: rgb(153,102,0);}
+.alternate_table_row_0 {background-color: rgb(255,255,255);}
+.alternate_table_row_1 {background-color: rgb(235,235,235);}
+.gray_table_row {background-color: rgb(230,230,245);}
+.polymorphism_table_row {background-color: rgb(160,255,160);}
+.highlight_table_row {background-color: rgb(192,255,255);}
+.reject_table_row {background-color: rgb(255,200,165);}
+.user_defined_table_row {background-color: rgb(255,255,0);}
+.information_table_row {background-color: rgb(200,255,255);}
+.junction_repeat {background-color: rgb(255,165,0)}
+.junction_gene {}
+.hidden { display: none; }
+.unhidden { display: block; }
+
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script type="text/javascript">
+  function hideTog(divID) {
+    var item = document.getElementById(divID);
+    if (item) {
+      item.className=(item.className=='hidden')?'unhidden':'hidden';
+    }
+  }
+  function showTog(butID) {
+    var button = document.getElementById(butID);
+    if (button) {
+      button.value=(button.value=='Show')?'Hide':'Show';
+    }
+  }
+</script>
+
+</head>
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="3">
+<tr>
+<td><a href="http://barricklab.org/breseq"><img src="evidence/breseq_small.png" /></a></td>
+<td width="100%">
+<b><i>breseq</i></b>&nbsp;&nbsp;version 0.37.0&nbsp;&nbsp;
+<br><a href="index.html">mutation predictions</a> | 
+<a href="marginal.html">marginal predictions</a> | 
+<a href="summary.html">summary statistics</a> | 
+<a href="output.gd">genome diff</a> | 
+<a href="log.txt">command line log</a>
+</td></tr></table>
+
+<p>
+<!--Mutation Predictions -->
+<p>
+<!--Output Html_Mutation_Table_String-->
+<table border="0" cellspacing="1" cellpadding="3">
+<tr><th colspan="7" align="left" class="mutation_header_row">Predicted mutations</th></tr><tr>
+<th>evidence</th>
+<th>seq&nbsp;id</th>
+<th>position</th>
+<th>mutation</th>
+<th>annotation</th>
+<th>gene</th>
+<th width="100%">description</th>
+</tr>
+
+<!-- Item Lines -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/INS_1.html">RA</a></td><!-- Evidence -->
+<td align="center">NZ_CP046844</td><!-- Seq_Id -->
+<td align="right">787,032</td><!-- Position -->
+<td align="center">(G)<sub>10&rarr;11</sub></td><!-- Cell Mutation -->
+<td align="center">pseudogene&nbsp;(232/737&nbsp;nt)</td>
+<td align="center"><i>GPY04_RS03630</i>&nbsp;&larr;</td>
+<td align="left">ATP&#8209;dependent zinc protease</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/DEL_2.html">RA</a></td><!-- Evidence -->
+<td align="center">NZ_CP046844</td><!-- Seq_Id -->
+<td align="right">1,010,731</td><!-- Position -->
+<td align="center">(T)<sub>8&rarr;7</sub></td><!-- Cell Mutation -->
+<td align="center">pseudogene&nbsp;(368/1948&nbsp;nt)</td>
+<td align="center"><i>GPY04_RS04605</i>&nbsp;&larr;</td>
+<td align="left">tetratricopeptide repeat protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/INS_3.html">RA</a></td><!-- Evidence -->
+<td align="center">NZ_CP046844</td><!-- Seq_Id -->
+<td align="right">2,047,612</td><!-- Position -->
+<td align="center">(C)<sub>7&rarr;8</sub></td><!-- Cell Mutation -->
+<td align="center">intergenic&nbsp;(&#8209;90/+155)</td>
+<td align="center"><i>GPY04_RS09340</i>&nbsp;&larr;&nbsp;/&nbsp;&larr;&nbsp;<i>dinB</i></td>
+<td align="left">YggN family protein/DNA polymerase IV</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/DEL_4.html">RA</a></td><!-- Evidence -->
+<td align="center">NZ_CP046844</td><!-- Seq_Id -->
+<td align="right">2,221,809</td><!-- Position -->
+<td align="center">(A)<sub>9&rarr;8</sub></td><!-- Cell Mutation -->
+<td align="center">intergenic&nbsp;(&#8209;60/+65)</td>
+<td align="center"><i>glnE</i>&nbsp;&larr;&nbsp;/&nbsp;&larr;&nbsp;<i>GPY04_RS10050</i></td>
+<td align="left">bifunctional [glutamate&#8209;&#8209;ammonia ligase]&#8209;adenylyl&#8209;L&#8209;tyrosine phosphorylase/[glutamate&#8209;&#8209;ammonia&#8209;ligase] adenylyltransferase/methyl&#8209;accepting chemotaxis protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/INS_5.html">RA</a></td><!-- Evidence -->
+<td align="center">NZ_CP046844</td><!-- Seq_Id -->
+<td align="right">2,510,903</td><!-- Position -->
+<td align="center">+C</td><!-- Cell Mutation -->
+<td align="center">pseudogene&nbsp;(1737/2024&nbsp;nt)</td>
+<td align="center"><i>gspD</i>&nbsp;&larr;</td>
+<td align="left">type II secretion system secretin GspD</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/SNP_6.html">RA</a></td><!-- Evidence -->
+<td align="center">NZ_CP046844</td><!-- Seq_Id -->
+<td align="right">2,567,382</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="center"><font class="snp_type_nonsynonymous">K43R</font>&nbsp;(A<font class="mutation_in_codon">A</font>A&rarr;A<font class="mutation_in_codon">G</font>A)&nbsp;</td>
+<td align="center"><i>rpsL</i>&nbsp;&larr;</td>
+<td align="left">30S ribosomal protein S12</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/DEL_7.html">RA</a></td><!-- Evidence -->
+<td align="center">NZ_CP046844</td><!-- Seq_Id -->
+<td align="right">2,596,084</td><!-- Position -->
+<td align="center">(T)<sub>10&rarr;9</sub></td><!-- Cell Mutation -->
+<td align="center">intergenic&nbsp;(&#8209;250/+6)</td>
+<td align="center"><i>hemE</i>&nbsp;&larr;&nbsp;/&nbsp;&larr;&nbsp;<i>nudC</i></td>
+<td align="left">uroporphyrinogen decarboxylase/NAD(+) diphosphatase</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/INS_8.html">RA</a></td><!-- Evidence -->
+<td align="center">NZ_CP046845</td><!-- Seq_Id -->
+<td align="right">280,469</td><!-- Position -->
+<td align="center">(C)<sub>5&rarr;6</sub></td><!-- Cell Mutation -->
+<td align="center">pseudogene&nbsp;(486/1205&nbsp;nt)</td>
+<td align="center"><i>pgtP</i>&nbsp;&rarr;</td>
+<td align="left">phosphoglycerate transporter protein PgtP</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/SNP_9.html">RA</a></td><!-- Evidence -->
+<td align="center">pMMB67EH&#8209;tfoX&#8209;qstR_tfoX_qstR_CmR</td><!-- Seq_Id -->
+<td align="right">3,037</td><!-- Position -->
+<td align="center">T&rarr;A</td><!-- Cell Mutation -->
+<td align="center">intergenic&nbsp;(+1095/+155)</td>
+<td align="center"><i>CmR resistance cassette</i>&nbsp;&rarr;&nbsp;/&nbsp;&larr;&nbsp;<i>ORF frame 1</i></td>
+<td align="left">&#8211;/&#8211;</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/SNP_10.html">RA</a></td><!-- Evidence -->
+<td align="center">pMMB67EH&#8209;tfoX&#8209;qstR_tfoX_qstR_CmR</td><!-- Seq_Id -->
+<td align="right">4,192</td><!-- Position -->
+<td align="center">A&rarr;C</td><!-- Cell Mutation -->
+<td align="center"><font class="snp_type_nonsynonymous">Q291P</font>&nbsp;(C<font class="mutation_in_codon">A</font>A&rarr;C<font class="mutation_in_codon">C</font>A)&nbsp;</td>
+<td align="center"><i>ORF frame 1</i>&nbsp;&rarr;</td>
+<td align="left"></td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/SUB_11.html">RA</a></td><!-- Evidence -->
+<td align="center">pMMB67EH&#8209;tfoX&#8209;qstR_tfoX_qstR_CmR</td><!-- Seq_Id -->
+<td align="right">4,565</td><!-- Position -->
+<td align="center">2&nbsp;bp&rarr;CA</td><!-- Cell Mutation -->
+<td align="center">coding&nbsp;(1245&#8209;1246/2130&nbsp;nt)</td>
+<td align="center"><i>ORF frame 1</i>&nbsp;&rarr;</td>
+<td align="left"></td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/SNP_12.html">RA</a></td><!-- Evidence -->
+<td align="center">pMMB67EH&#8209;tfoX&#8209;qstR_tfoX_qstR_CmR</td><!-- Seq_Id -->
+<td align="right">5,187</td><!-- Position -->
+<td align="center">C&rarr;G</td><!-- Cell Mutation -->
+<td align="center"><font class="snp_type_nonsynonymous">H623D</font>&nbsp;(<font class="mutation_in_codon">C</font>AT&rarr;<font class="mutation_in_codon">G</font>AT)&nbsp;<br><font class="snp_type_synonymous">V94V</font>&nbsp;(GT<font class="mutation_in_codon">C</font>&rarr;GT<font class="mutation_in_codon">G</font>)&nbsp;</td>
+<td align="center"><i>ORF frame 1</i>&nbsp;&rarr;<br><i>ORF frame 2</i>&nbsp;&rarr;</td>
+<td align="left"><br></td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/DEL_13.html">RA</a></td><!-- Evidence -->
+<td align="center">pMMB67EH&#8209;tfoX&#8209;qstR_tfoX_qstR_CmR</td><!-- Seq_Id -->
+<td align="right">7,107</td><!-- Position -->
+<td align="center">&Delta;1&nbsp;bp</td><!-- Cell Mutation -->
+<td align="center">coding&nbsp;(420/951&nbsp;nt)</td>
+<td align="center"><i>ORF frame 2</i>&nbsp;&rarr;</td>
+<td align="left"></td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/INS_14.html">RA</a></td><!-- Evidence -->
+<td align="center">pMMB67EH&#8209;tfoX&#8209;qstR_tfoX_qstR_CmR</td><!-- Seq_Id -->
+<td align="right">7,114</td><!-- Position -->
+<td align="center">+G</td><!-- Cell Mutation -->
+<td align="center">coding&nbsp;(427/951&nbsp;nt)</td>
+<td align="center"><i>ORF frame 2</i>&nbsp;&rarr;</td>
+<td align="left"></td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/SNP_15.html">RA</a></td><!-- Evidence -->
+<td align="center">pMMB67EH&#8209;tfoX&#8209;qstR_tfoX_qstR_CmR</td><!-- Seq_Id -->
+<td align="right">7,534</td><!-- Position -->
+<td align="center">A&rarr;C</td><!-- Cell Mutation -->
+<td align="center"><font class="snp_type_nonsynonymous">K283Q</font>&nbsp;(<font class="mutation_in_codon">A</font>AG&rarr;<font class="mutation_in_codon">C</font>AG)&nbsp;</td>
+<td align="center"><i>ORF frame 2</i>&nbsp;&rarr;</td>
+<td align="left"></td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/INS_16.html">RA</a></td><!-- Evidence -->
+<td align="center">pMMB67EH&#8209;tfoX&#8209;qstR_tfoX_qstR_CmR</td><!-- Seq_Id -->
+<td align="right">8,098</td><!-- Position -->
+<td align="center">+C</td><!-- Cell Mutation -->
+<td align="center">coding&nbsp;(776/816&nbsp;nt)</td>
+<td align="center"><i>ORF frame 1</i>&nbsp;&larr;</td>
+<td align="left"></td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/INS_17.html">RA</a></td><!-- Evidence -->
+<td align="center">pSC189</td><!-- Seq_Id -->
+<td align="right">2,181</td><!-- Position -->
+<td align="center">+GG</td><!-- Cell Mutation -->
+<td align="center">intergenic&nbsp;(+273/&#8209;962)</td>
+<td align="center"><i>3xFLAG</i>&nbsp;&rarr;&nbsp;/&nbsp;&rarr;&nbsp;<i>aph(3')&#8209;II (or nptII)</i></td>
+<td align="left">three tandem FLAG(R) epitope tags, followed by an enterokinase cleavage site/aminoglycoside phosphotransferase from Tn5</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/SNP_18.html">RA</a></td><!-- Evidence -->
+<td align="center">pSC189</td><!-- Seq_Id -->
+<td align="right">2,204</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="center">intergenic&nbsp;(+296/&#8209;939)</td>
+<td align="center"><i>3xFLAG</i>&nbsp;&rarr;&nbsp;/&nbsp;&rarr;&nbsp;<i>aph(3')&#8209;II (or nptII)</i></td>
+<td align="left">three tandem FLAG(R) epitope tags, followed by an enterokinase cleavage site/aminoglycoside phosphotransferase from Tn5</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/SNP_19.html">RA</a></td><!-- Evidence -->
+<td align="center">pSC189</td><!-- Seq_Id -->
+<td align="right">2,252</td><!-- Position -->
+<td align="center">C&rarr;G</td><!-- Cell Mutation -->
+<td align="center">intergenic&nbsp;(+344/&#8209;891)</td>
+<td align="center"><i>3xFLAG</i>&nbsp;&rarr;&nbsp;/&nbsp;&rarr;&nbsp;<i>aph(3')&#8209;II (or nptII)</i></td>
+<td align="left">three tandem FLAG(R) epitope tags, followed by an enterokinase cleavage site/aminoglycoside phosphotransferase from Tn5</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/SNP_20.html">RA</a></td><!-- Evidence -->
+<td align="center">pSC189</td><!-- Seq_Id -->
+<td align="right">2,432</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="center">intergenic&nbsp;(+524/&#8209;711)</td>
+<td align="center"><i>3xFLAG</i>&nbsp;&rarr;&nbsp;/&nbsp;&rarr;&nbsp;<i>aph(3')&#8209;II (or nptII)</i></td>
+<td align="left">three tandem FLAG(R) epitope tags, followed by an enterokinase cleavage site/aminoglycoside phosphotransferase from Tn5</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/SNP_21.html">RA</a></td><!-- Evidence -->
+<td align="center">pSC189</td><!-- Seq_Id -->
+<td align="right">2,563</td><!-- Position -->
+<td align="center">C&rarr;G</td><!-- Cell Mutation -->
+<td align="center">intergenic&nbsp;(+655/&#8209;580)</td>
+<td align="center"><i>3xFLAG</i>&nbsp;&rarr;&nbsp;/&nbsp;&rarr;&nbsp;<i>aph(3')&#8209;II (or nptII)</i></td>
+<td align="left">three tandem FLAG(R) epitope tags, followed by an enterokinase cleavage site/aminoglycoside phosphotransferase from Tn5</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/JC_106.html">JC</a></td><!-- Evidence -->
+<td align="center">pSC189</td><!-- Seq_Id -->
+<td align="right">2,592</td><!-- Position -->
+<td align="center">+TGG</td><!-- Cell Mutation -->
+<td align="center">intergenic&nbsp;(+684/&#8209;551)</td>
+<td align="center"><i>3xFLAG</i>&nbsp;&rarr;&nbsp;/&nbsp;&rarr;&nbsp;<i>aph(3')&#8209;II (or nptII)</i></td>
+<td align="left">three tandem FLAG(R) epitope tags, followed by an enterokinase cleavage site/aminoglycoside phosphotransferase from Tn5</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/DEL_23.html">RA</a></td><!-- Evidence -->
+<td align="center">pSC189</td><!-- Seq_Id -->
+<td align="right">2,778</td><!-- Position -->
+<td align="center">&Delta;1&nbsp;bp</td><!-- Cell Mutation -->
+<td align="center">intergenic&nbsp;(+870/&#8209;365)</td>
+<td align="center"><i>3xFLAG</i>&nbsp;&rarr;&nbsp;/&nbsp;&rarr;&nbsp;<i>aph(3')&#8209;II (or nptII)</i></td>
+<td align="left">three tandem FLAG(R) epitope tags, followed by an enterokinase cleavage site/aminoglycoside phosphotransferase from Tn5</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/SNP_24.html">RA</a></td><!-- Evidence -->
+<td align="center">pSC189</td><!-- Seq_Id -->
+<td align="right">2,857</td><!-- Position -->
+<td align="center">T&rarr;G</td><!-- Cell Mutation -->
+<td align="center">intergenic&nbsp;(+949/&#8209;286)</td>
+<td align="center"><i>3xFLAG</i>&nbsp;&rarr;&nbsp;/&nbsp;&rarr;&nbsp;<i>aph(3')&#8209;II (or nptII)</i></td>
+<td align="left">three tandem FLAG(R) epitope tags, followed by an enterokinase cleavage site/aminoglycoside phosphotransferase from Tn5</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/SNP_25.html">RA</a></td><!-- Evidence -->
+<td align="center">pSC189</td><!-- Seq_Id -->
+<td align="right">2,943</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="center">intergenic&nbsp;(+1035/&#8209;200)</td>
+<td align="center"><i>3xFLAG</i>&nbsp;&rarr;&nbsp;/&nbsp;&rarr;&nbsp;<i>aph(3')&#8209;II (or nptII)</i></td>
+<td align="left">three tandem FLAG(R) epitope tags, followed by an enterokinase cleavage site/aminoglycoside phosphotransferase from Tn5</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/SNP_26.html">RA</a></td><!-- Evidence -->
+<td align="center">pSC189</td><!-- Seq_Id -->
+<td align="right">3,095</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="center">intergenic&nbsp;(+1187/&#8209;48)</td>
+<td align="center"><i>3xFLAG</i>&nbsp;&rarr;&nbsp;/&nbsp;&rarr;&nbsp;<i>aph(3')&#8209;II (or nptII)</i></td>
+<td align="left">three tandem FLAG(R) epitope tags, followed by an enterokinase cleavage site/aminoglycoside phosphotransferase from Tn5</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/SNP_27.html">RA</a></td><!-- Evidence -->
+<td align="center">pSC189</td><!-- Seq_Id -->
+<td align="right">3,169</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="center"><font class="snp_type_synonymous">A9A</font>&nbsp;(GC<font class="mutation_in_codon">A</font>&rarr;GC<font class="mutation_in_codon">G</font>)&nbsp;</td>
+<td align="center"><i>aph(3')&#8209;II (or nptII)</i>&nbsp;&rarr;</td>
+<td align="left">aminoglycoside phosphotransferase from Tn5</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/SNP_28.html">RA</a></td><!-- Evidence -->
+<td align="center">pSC189</td><!-- Seq_Id -->
+<td align="right">3,233</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="center"><font class="snp_type_nonsynonymous">C31R</font>&nbsp;(<font class="mutation_in_codon">T</font>GC&rarr;<font class="mutation_in_codon">C</font>GC)&nbsp;</td>
+<td align="center"><i>aph(3')&#8209;II (or nptII)</i>&nbsp;&rarr;</td>
+<td align="left">aminoglycoside phosphotransferase from Tn5</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/SNP_29.html">RA</a></td><!-- Evidence -->
+<td align="center">pSC189</td><!-- Seq_Id -->
+<td align="right">3,478</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="center"><font class="snp_type_synonymous">K112K</font>&nbsp;(AA<font class="mutation_in_codon">A</font>&rarr;AA<font class="mutation_in_codon">G</font>)&nbsp;</td>
+<td align="center"><i>aph(3')&#8209;II (or nptII)</i>&nbsp;&rarr;</td>
+<td align="left">aminoglycoside phosphotransferase from Tn5</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/SNP_30.html">RA</a></td><!-- Evidence -->
+<td align="center">pSC189</td><!-- Seq_Id -->
+<td align="right">3,844</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="center"><font class="snp_type_synonymous">G234G</font>&nbsp;(GG<font class="mutation_in_codon">C</font>&rarr;GG<font class="mutation_in_codon">T</font>)&nbsp;</td>
+<td align="center"><i>aph(3')&#8209;II (or nptII)</i>&nbsp;&rarr;</td>
+<td align="left">aminoglycoside phosphotransferase from Tn5</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/SNP_31.html">RA</a></td><!-- Evidence -->
+<td align="center">pSC189</td><!-- Seq_Id -->
+<td align="right">3,856</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="center"><font class="snp_type_synonymous">D238D</font>&nbsp;(GA<font class="mutation_in_codon">C</font>&rarr;GA<font class="mutation_in_codon">T</font>)&nbsp;</td>
+<td align="center"><i>aph(3')&#8209;II (or nptII)</i>&nbsp;&rarr;</td>
+<td align="left">aminoglycoside phosphotransferase from Tn5</td>
+</tr>
+<!-- End Table Row -->
+</table>
+<p>
+<table border="0" cellspacing="1" cellpadding="3" width="100%">
+<tr><th colspan="11" align="left" class="missing_coverage_header_row">Unassigned missing coverage evidence</th></tr>
+<tr><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>seq&nbsp;id</th>
+<th>start</th>
+<th>end</th>
+<th>size</th>
+<th>&larr;reads</th>
+<th>reads&rarr;</th>
+<th>gene</th>
+<th width="100%">description</th>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_90.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_90.html">*</a></td>
+<td><a href="evidence/MC_PLOT_90.html">&divide;</a></td>
+<td>NZ_CP046845</td>
+<td align="right">121643</td>
+<td align="right">121650</td>
+<td align="right">8</td>
+<td align="center">96&nbsp;[0]</td>
+<td align="center">[0]&nbsp;127</td>
+<td align="center"><i>GPY04_RS15145/intIA</i></td>
+<td align="left">DUF3265 domain&#8209;containing protein/integron integrase IntIA</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_91.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_91.html">*</a></td>
+<td><a href="evidence/MC_PLOT_91.html">&divide;</a></td>
+<td>pMMB67EH&#8209;tfoX&#8209;qstR_tfoX_qstR_CmR</td>
+<td align="right">1894</td>
+<td align="right">2153</td>
+<td align="right">260</td>
+<td align="center">435&nbsp;[434]</td>
+<td align="center">[421]&nbsp;467</td>
+<td align="center"><i>[CmR&nbsp;resistance&nbsp;cassette]</i></td>
+<td align="left">[CmR resistance cassette]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_92.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_92.html">*</a></td>
+<td><a href="evidence/MC_PLOT_92.html">&divide;</a></td>
+<td>pSC189</td>
+<td align="right">1</td>
+<td align="right">1800</td>
+<td align="right">1800</td>
+<td align="center">NA&nbsp;[0]</td>
+<td align="center">[0]&nbsp;107</td>
+<td align="center"><i>&#8211;/3xFLAG</i></td>
+<td align="left">&#8211;/three tandem FLAG(R) epitope tags, followed by an enterokinase cleavage site</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_93.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_93.html">*</a></td>
+<td><a href="evidence/MC_PLOT_93.html">&divide;</a></td>
+<td>pSC189</td>
+<td align="right">1931</td>
+<td align="right">2020</td>
+<td align="right">90</td>
+<td align="center">58&nbsp;[46]</td>
+<td align="center">[54]&nbsp;57</td>
+<td align="center"><i>3xFLAG/aph(3')&#8209;II&nbsp;(or&nbsp;nptII)</i></td>
+<td align="left">three tandem FLAG(R) epitope tags, followed by an enterokinase cleavage site/aminoglycoside phosphotransferase from Tn5</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_94.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_94.html">*</a></td>
+<td><a href="evidence/MC_PLOT_94.html">&divide;</a></td>
+<td>pSC189</td>
+<td align="right">4059</td>
+<td align="right">6982</td>
+<td align="right">2924</td>
+<td align="center">95&nbsp;[0]</td>
+<td align="center">[0]&nbsp;NA</td>
+<td align="center"><i>traJ&#8211;bla</i></td>
+<td align="left">traJ,bla</td>
+</tr>
+</table>
+<p>
+<table border="0" cellspacing="1" cellpadding="3">
+<tr><th colspan="12" align="left" class="new_junction_header_row">Unassigned new junction evidence</th></tr>
+<!-- Header Lines for New Junction -->
+<tr>
+<th colspan="2">&nbsp;</th>
+<th>seq&nbsp;id</th>
+<th>position</th>
+<th>reads&nbsp;(cov)</th>
+<th>reads&nbsp;(cov)</th>
+<th>score</th>
+<th>skew</th>
+<th>freq</th>
+<th>annotation</th>
+<th>gene</th>
+<th width="100%">product</th>
+</tr>
+
+<!-- Item Lines for New Junction -->
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="2"><a href="evidence/JC_98.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_98.html">?</a></td>
+<td rowspan="1" class="junction_gene">NZ_CP046845</td>
+<td align="center" class="junction_gene">54055&nbsp;=</td><td align="center" class="junction_gene">117 (1.190)</td><td rowspan="2" align="center">87 (0.940)</td>
+<td rowspan="2" align="center">44/254</td>
+<td rowspan="2" align="center">0.2</td>
+<td rowspan="2" align="center">61.3%</td>
+<td align="center" class="junction_gene">intergenic&nbsp;(&#8209;17/+134)</td>
+<td align="center" class="junction_gene"><i>GPY04_RS14480/GPY04_RS14485</i></td>
+<td class="junction_gene">hypothetical protein/hypothetical protein</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_98.html">?</a></td><td rowspan="1" class="junction_gene">NZ_CP046845</td>
+<td align="center" class="junction_gene">=&nbsp;121642</td>
+<td align="center" class="junction_gene">0 (0.000)</td><td align="center" class="junction_gene">intergenic&nbsp;(&#8209;249/&#8209;231)</td>
+<td align="center" class="junction_gene"><i>GPY04_RS15145/intIA</i></td>
+<td class="junction_gene">DUF3265 domain&#8209;containing protein/integron integrase IntIA</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="2"><a href="evidence/JC_101.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_101.html">?</a></td>
+<td rowspan="1" class="junction_gene">NZ_CP046845</td>
+<td align="center" class="junction_gene">=&nbsp;96298</td><td align="center" class="junction_gene">90 (0.910)</td><td rowspan="2" align="center">127 (1.350)</td>
+<td rowspan="2" align="center">49/258</td>
+<td rowspan="2" align="center">0.1</td>
+<td rowspan="2" align="center">74.7%</td>
+<td align="center" class="junction_gene">coding&nbsp;(49/186&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>GPY04_RS19650</i></td>
+<td class="junction_gene">hypothetical protein</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_101.html">?</a></td><td rowspan="1" class="junction_gene">NZ_CP046845</td>
+<td align="center" class="junction_gene">121651&nbsp;=</td>
+<td align="center" class="junction_gene">0 (0.000)</td><td align="center" class="junction_gene">intergenic&nbsp;(&#8209;258/&#8209;222)</td>
+<td align="center" class="junction_gene"><i>GPY04_RS15145/intIA</i></td>
+<td class="junction_gene">DUF3265 domain&#8209;containing protein/integron integrase IntIA</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="2"><a href="evidence/JC_102.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_102.html">?</a></td>
+<td rowspan="1" class="junction_gene">NZ_CP046845</td>
+<td align="center" class="junction_gene">245930&nbsp;=</td><td align="center" class="junction_gene">0 (0.000)</td><td rowspan="2" align="center">91 (0.960)</td>
+<td rowspan="2" align="center">37/266</td>
+<td rowspan="2" align="center">0.0</td>
+<td rowspan="2" align="center">100%</td>
+<td align="center" class="junction_gene">coding&nbsp;(697/1653&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>GPY04_RS15715</i></td>
+<td class="junction_gene">BatD family protein</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_102.html">?</a></td><td rowspan="1" class="junction_gene">pSC189</td>
+<td align="center" class="junction_gene">=&nbsp;4058</td>
+<td align="center" class="junction_gene">0 (0.000)</td><td align="center" class="junction_gene">intergenic&nbsp;(+121/+620)</td>
+<td align="center" class="junction_gene"><i>aph(3')&#8209;II&nbsp;(or&nbsp;nptII)/traJ</i></td>
+<td class="junction_gene">aminoglycoside phosphotransferase from Tn5/oriT&#8209;recognizing protein</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="2"><a href="evidence/JC_103.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_103.html">?</a></td>
+<td rowspan="1" class="junction_gene">NZ_CP046845</td>
+<td align="center" class="junction_gene">=&nbsp;245931</td><td align="center" class="junction_gene">0 (0.000)</td><td rowspan="2" align="center">107 (1.110)</td>
+<td rowspan="2" align="center">47/270</td>
+<td rowspan="2" align="center">0.0</td>
+<td rowspan="2" align="center">100%</td>
+<td align="center" class="junction_gene">coding&nbsp;(698/1653&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>GPY04_RS15715</i></td>
+<td class="junction_gene">BatD family protein</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_103.html">?</a></td><td rowspan="1" class="junction_gene">pSC189</td>
+<td align="center" class="junction_gene">1801&nbsp;=</td>
+<td align="center" class="junction_gene">0 (0.000)</td><td align="center" class="junction_gene">intergenic&nbsp;(&#8211;/&#8209;42)</td>
+<td align="center" class="junction_gene"><i>&#8211;/3xFLAG</i></td>
+<td class="junction_gene">&#8211;/three tandem FLAG(R) epitope tags, followed by an enterokinase cleavage site</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="2"><a href="evidence/JC_104.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_104.html">?</a></td>
+<td rowspan="1" class="junction_gene">pMMB67EH&#8209;tfoX&#8209;qstR_tfoX_qstR_CmR</td>
+<td align="center" class="junction_gene">1&nbsp;=</td><td align="center" class="junction_gene">0 (0.000)</td><td rowspan="2" align="center">583 (0.990)</td>
+<td rowspan="2" align="center">113/270</td>
+<td rowspan="2" align="center">0.2</td>
+<td rowspan="2" align="center">100%</td>
+<td align="center" class="junction_gene">intergenic&nbsp;(&#8211;/&#8209;727)</td>
+<td align="center" class="junction_gene"><i>&#8211;/CmR&nbsp;resistance&nbsp;cassette</i></td>
+<td class="junction_gene">&#8211;/&#8211;</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_104.html">?</a></td><td rowspan="1" class="junction_repeat">pMMB67EH&#8209;tfoX&#8209;qstR_tfoX_qstR_CmR</td>
+<td align="center" class="junction_repeat">=&nbsp;10672</td>
+<td align="center" class="junction_repeat">NA (NA)</td><td align="center" class="junction_repeat">coding&nbsp;(645/645&nbsp;nt)</td>
+<td align="center" class="junction_repeat"><i>QstR</i></td>
+<td class="junction_repeat"></td>
+</tr>
+</table>
+</body></html>
