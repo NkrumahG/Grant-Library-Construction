@@ -1,7 +1,7 @@
 #This file contains the supplementary datasets referenced in the manuscript.
-#Dataset S1. Plate indices file (this is located in the LuxO_search_window directory named Plate_indices.txt)
+#Dataset S1. Plate indices file (this is located in the Grant-library-analysis directory named Plate_indices.txt)
 #Dataset S2. Modified version of transposon library mutant dataset presented in Cameron et al., 2008. 
-#  (this is located in the LuxO_search_window directory named LCD_locked_search.txt)
+#  (this is located in the Grant-library-analysis directory named LCD_locked_search.txt)
 #Dataset S3. List of genes duplicated in the Cameron et al., 2008 transposon library mutant dataset.
 #  (this is an output file when the Grant-library-analysis script is sourced. It is called 
     "duplicate_Mekalanos_mutants.txt"). 
