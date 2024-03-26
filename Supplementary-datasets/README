@@ -8,3 +8,5 @@
 #Dataset S4. List of gene ortholog pairs present in Vibrio cholerae strains N16961 and C6706. 
 #Dataset S5. List of genes unique to Vibrio cholerae strain N16961.
 #Dataset S6. List of genes unique to Vibrio cholerae strain C6706. 
+#Dataset S7. List of transposon insertion mutants within a 50 kb window upstream and downstram of luxO. 
+#Dataset S8. Sanger sequence chromatograms for 94 mutants sequenced at luxO locus.
