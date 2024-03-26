@@ -9,4 +9,6 @@
 #Dataset S5. List of genes unique to Vibrio cholerae strain N16961.
 #Dataset S6. List of genes unique to Vibrio cholerae strain C6706. 
 #Dataset S7. List of transposon insertion mutants within a 50 kb window upstream and downstram of luxO. 
-#Dataset S8. Sanger sequence chromatograms for 94 mutants sequenced at luxO locus.
+#Dataset S8. Sanger sequence chromatograms for 94 transposon mutants sequenced in 50 kb window upstream and downstream of luxO. 
+#Dataset S9. OD600 readings over time monitoring growth of Grant and Cameron et al. parent strains.
+#Dataset S10. Endpoint OD600 readings for 5-paired plates from Grant and Cameron et al. transposon mutant libraries. 
