@@ -1,0 +1,32 @@
+Concat	MutantID	Plate	NR Well Location	NR Well Location	R Well Location	Genomic Location	Chromosome Location	Gene Description	Gene Name	Gene Role	% into ORF	Direction of Transposon in ORF (see materials and methods)	BLAST Score	Next Best BLAST Score	Levenshtein Distance	Ambiguous location ('yes' if difference between BLAST scores is 0 or if Levenshtein Distance > 4)
+3F2	EC1507	3	F2	F	2	322987	2	conserved hypothetical protein		Hypothetical proteins	9.5	+	967	967	0	yes
+4C2	EC1761	4	C2	C	2	323171	2	hypothetical protein			37.6	+	611	611	0	yes
+5G10	EC2986	5	G10	G	10	2710620	1	conserved hypothetical protein		Hypothetical proteins	5.7	+	105	0	3	
+5A8	EC2897	5	A8	A	8	225331	2	hypothetical protein			17	-	916	0	0	
+8E2	EC4449	8	E2	E	2	4124	1	ribonuclease P protein component	rnpA	Transcription	99.1	+	910	0	0	
+10B10	EC6187	10	B10	B	10	1930262	1	conserved hypothetical protein		Hypothetical proteins	12	+	452	0	0	
+11H2	EC6785	11	H2	H	2	1577108	1	phage replication protein Cri	cri-2	Mobile and extrachromosomal element functions	10.5	-	981	981	0	yes
+12A10	EC8161	12	A10	A	10	435288	2	hypothetical protein			19	+	434	434	6	yes
+13E6	EC8748	13	E6	E	6	998875	1	hypothetical protein			32.6	-	48.1	48.1	10	yes
+13D1	EC8139	13	D1	D	1	2893837	1	ComF-related protein		Unknown function	6.5	-	404	0	0	
+13E6	EC8748	13	E6	E	6	998875	1	hypothetical protein			51.4	-	48.1	48.1	10	yes
+13B4	EC8453	13	B4	B	4	311086	2	hypothetical protein			20.3	-	611	611	0	yes
+14F4	EC9517	14	F4	F	4	1565808	1	RstA2 protein	rstA2	Mobile and extrachromosomal element functions	8.8	-	343	343	0	yes
+14A7	EC9524	14	A7	A	7	736967	1	"transposase OrfAB, subunit A"	orfA	Mobile and extrachromosomal element functions	5.5	-	1211	1211	0	yes
+14A7	EC9524	14	A7	A	7	736967	2	"transposase OrfAB, subunit A"	orfA	Mobile and extrachromosomal element functions	5.5	-	1211	1211	0	yes
+16F9	EC10914	16	F9	F	9	63163	2	hypothetical protein			24.8	-	65.9	65.9	0	yes
+17A5	EC11386	17	A5	A	5	1220120	1	transcriptional repressor RstR	rstR-2	Mobile and extrachromosomal element functions	91.7	-	517	517	0	yes
+17B10	EC11588	17	B10	B	10	428964	2	hypothetical protein			86.1	-	331	331	10	yes
+18A6	EC11937	18	A6	A	6	900963	2	conserved hypothetical protein		Hypothetical proteins	6.8	+	442	0	1	
+20A6	EC13749	20	A6	A	6	723571	1	conserved hypothetical protein		Hypothetical proteins	13	+	587	587	0	yes
+20D9	EC13571	20	D9	D	9	1953662	1	conserved hypothetical protein		Hypothetical proteins	98.3	+	613	0	0	
+21F5	EC14042	21	F5	F	5	330593	2	hypothetical protein			55.3	+	163	163	0	yes
+22G9	EC15045	22	G9	G	9	805610	1	ferredoxin		Energy metabolism	4.3	+	260	0	0	
+22B5	EC14888	22	B5	B	5	370423	2	hypothetical protein			10.3	-	478	371	0	
+23A9	EC15387	23	A9	A	9	856560	1	tlcR protein	tlcR-2	Unknown function	12.7	-	597	597	0	yes
+26B11	EC18255	26	B11	B	11	2577516	1	penicillin-binding protein 3	ftsI	Cell envelope	99.8	+	850	0	0	
+30B6	EC21023	30	B6	B	6	787517	2	hypothetical protein			15.4	-	163	0	0	
+32A4	EC23132	32	A4	A	4	309587	1	"transposase OrfAB, subunit B"	orfB	Mobile and extrachromosomal element functions	8.3	-	611	611	0	yes
+32A4	EC23132	32	A4	A	4	309587	2	"transposase OrfAB, subunit B"	orfB	Mobile and extrachromosomal element functions	8.3	-	611	611	0	yes
+32A4	EC23132	32	A4	A	4	309587	2	"transposase OrfAB, subunit B"	orfB	Mobile and extrachromosomal element functions	8.3	-	611	611	0	yes
+32A4	EC23132	32	A4	A	4	309587	2	"transposase OrfAB, subunit B"	orfB	Mobile and extrachromosomal element functions	8.3	-	611	611	0	yes
